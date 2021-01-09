@@ -1,0 +1,35 @@
+.container {
+  background: rgb(181, 198, 204);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+textarea {
+  font-family: inherit;
+  width: 400px;
+  height: 100px;
+  padding: 1rem;
+  font-size: 100%;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.tag {
+  background: #f26532;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-family: inherit;
+  margin: 0 0.3rem 0.5rem 0;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color: #273275;
+}
